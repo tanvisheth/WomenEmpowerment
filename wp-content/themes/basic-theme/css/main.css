@@ -1,0 +1,131 @@
+body {
+  background: #87CEEB;
+  padding: 0;
+}
+
+.page .container {
+  padding: 0rem;
+  margin-top:20px;
+  background: transparent;
+}
+header{
+	background: linear-gradient(180deg, rgba(255,192,203,1) 68%, rgba(196,46,200,0) 100%);
+	padding: 1rem;
+	margin: 0 0 0 0;
+	opacity: 80%;
+}
+ul {
+  display: flex;
+  justify-content: center; 
+}
+li {
+  list-style-type: none;
+}
+
+
+li a {
+  padding: 0 1.5rem;
+  text-decoration:none;
+  font-size: 20px;
+  font-weight:bold;
+  
+  display: block;
+}
+
+li a:hover {
+    background-color: #FFDAB9;
+	text-decoration:none;
+}
+footer{
+	background: black;
+	color:white;
+	margin: 200px 0 0 10px;
+	padding: 1rem;
+}
+
+h2{
+	text-decoration:underline;
+	color: blue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h5{
+	color: purple;
+	/*font-family: "Lucida Console", "Courier New", monospace;*/
+}
+
+/* Home Page */
+  .banner{
+    
+    width: 100%;
+    height :600px;
+    opacity: 100%;
+    overflow: hidden;
+    display : flex;
+    justify-content : center;
+    align-items : top;
+  }
+  
+  .banner video{
+    margin: 0px 5px 5px 0px; 
+    position: absolute;
+    top:0;
+    left : 0;
+    z-index: -1;
+    
+    object-fit : cover;
+    width : 100%;
+    opacity: 80%;
+    height : 600px;
+  pointer-events: none;
+  }
+  .banner .content{
+    position: relative;
+    z-index: 1;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .banner .content h2{
+	 text-decoration:none;
+    margin :0;
+    font-family:'Montserrat',sans-serif;
+    padding: 0;
+    font-size: 4.5em;
+    
+    color: #fff;
+  }
+  .banner .content h4{
+    font-size: 1.5em;
+    color: white;
+    font-family:'Montserrat',sans-serif;
+  }
+  .banner .content hr{
+    height: 02px;
+    width: 30%;
+    border-radius:30px;
+    background-color: rgb(251, 0, 84);
+  }
+  .banner .content .buttonlearn{
+    background-color: #6b66f1;
+    border-radius: 50px;
+    font-family:'Montserrat',sans-serif;
+    color: #FFFFFF;
+    height: 10%;
+    text-transform: uppercase;
+    width: 30%;
+    border-color: transparent;
+	
+  }
+  
+  .buttonlearn{
+    background-color: #6b66f1;
+    border-radius: 50px;
+    font-family:'Montserrat',sans-serif;
+    color: #FFFFFF;
+    height: 10%;
+    text-transform: uppercase;
+    width: 30%;
+    border-color: transparent;
+  }
